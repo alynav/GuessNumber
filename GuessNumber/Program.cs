@@ -13,8 +13,7 @@ namespace GuessNumber
             int a = 0;
             int b = 100;
             int x = new Random().Next(a, b);
-            //Console.WriteLine(x); 
-
+           
             do
             {
                 Console.WriteLine("Introduceti un numar intre {0} si {1}", a, b);
